@@ -1,0 +1,68 @@
+body {
+    background: #F5D9D5;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+
+/* ================== NAV ================= */
+
+#mainNavBar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavBar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#mainNavBar .nav-link {
+    color: white;
+}
+
+#mainNavBar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+.navbar.scrolled {
+    background: linear-gradient(transparent, transparent 50%, #EDC9DE 50%, #EDC9DE);
+    background-size: 100% 200%;
+    background-position: 100% -100%;
+    transition: background 0.3s ease-in;
+}
+
+/* =============== 1st section ============ */
+
+.intro h2 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1300px) {
+    .intro h2 {
+        font-size: 3rem;
+    }
+}
+
+.intro .slash {
+    color: #EA1C2C;
+}
+
+
+/* ================= 2nd section =============== */
+
+body:nth-child(2) h1 {
+    font-size: 2em;
+    font-weight: 100;
+    color: #EA1C2C;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #F498B8;
+    line-height: 30px;
+    display: block;
+}
